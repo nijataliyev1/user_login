@@ -1,0 +1,42 @@
+.UserLogin {
+    display: flex;
+    flex-direction: column;
+    border: rgb(110, 105, 105) solid 1px;
+    padding: 0 5px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.UserLogin .email, .UserLogin .pass {
+    padding: 5px 2px;
+    width: 100%;
+    border: #F74141 solid 1.5px;
+    /* border: #24A95D solid 1.5px; */
+    border: rgb(110, 105, 105) solid 1.5px;
+    border-radius: 2px;
+}
+
+.UserLogin p {
+    margin-top: 10px;
+}
+
+.UserLogin h2 {
+    align-self: center;
+    color: rgba(0, 0, 0, 0.212);
+}
+
+.UserLogin button {
+    align-self: flex-end;
+    margin: 10px 0 15px;
+    padding: 3px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(118, 54, 209, 0.5);
+    color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(118, 54, 209, 1); */
+    /* color: rgba(0, 0, 0, 1); */
+}
+
+.UserLogin input:focus {
+    outline: none;
+}
